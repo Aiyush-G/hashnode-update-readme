@@ -23,7 +23,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: JasonEtco/rss-to-readme@v1
+      - uses: Aiyush-G/hashnode-update-readme@v1
         with:
           feed-url: https://ooshimus.com/rss.xml
           readme-section: hashnode
