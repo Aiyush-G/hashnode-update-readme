@@ -43,7 +43,11 @@ The name of the section of your README to update. This uses [`JasonEtco/readme-b
 ### Example RSS feed:
 
 <!--START_SECTION:hashnode-->
-...
+* [Console.log() - The Right Way ✅](https:&#x2F;&#x2F;ooshimus.com&#x2F;consolelog-the-right-way)
+* [Is GPT-3 still King? Introducing GPT-J-6B](https:&#x2F;&#x2F;ooshimus.com&#x2F;is-gpt-3-still-king-introducing-gpt-j-6b)
+* [From GhostCMS to Hashnode](https:&#x2F;&#x2F;ooshimus.com&#x2F;from-ghostcms-to-hashnode)
+* [Printing COLOUR in IDLE in less than 2 minutes!](https:&#x2F;&#x2F;ooshimus.com&#x2F;printing-colour-in-idle-in-less-than-2-minutes)
+* [Controlling A Website with a TV Remote!!!](https:&#x2F;&#x2F;ooshimus.com&#x2F;controlling-a-website-with-a-tv-remote)
 <!--END_SECTION:hashnode-->
 ```
 
