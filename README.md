@@ -1,5 +1,4 @@
-<h3 align="center">📡📝</h3>
-<h3 align="center">Hashnode RSS to README Action</h3>
+<h3 align="center">Hashnode RSS to README Action ✨ </h3>
 <p align="center">A GitHub Action that updates a section of a README from a Hashnode RSS feed.</p>
 
 ---
@@ -37,7 +36,7 @@ The URL to an RSS feed. It's assumed that the RSS feed follow the standard forma
 
 #### `readme-section`:
 
-The name of the section of your README to update. This uses [`JasonEtco/readme-box`](https://github.com/JasonEtco/readme-box) to replace a section of the README and update the file. Your README should contain HTML comments like this, where `feed` is the the value of `readme-section`:
+The name of the section of your README to update. Your README should contain HTML comments like this, where `feed` is the the value of `readme-section`:
 
 ### Example RSS feed from Ooshimus.com:
 
@@ -63,7 +62,7 @@ You can provide a [Mustache](https://github.com/janl/mustache.js) template to us
 ```yaml
 - uses: JasonEtco/rss-to-readme@v1
   with:
-    feed-url: https://jasonet.co/rss.xml
+    feed-url: https://ooshimus.com/rss.xml
     template: "> {{ excerpt }}\n\n[Read more!]({{ url }})"
 ```
 
