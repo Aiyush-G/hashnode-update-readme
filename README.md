@@ -39,8 +39,7 @@ The URL to an RSS feed. It's assumed that the RSS feed follow the standard forma
 
 The name of the section of your README to update. This uses [`JasonEtco/readme-box`](https://github.com/JasonEtco/readme-box) to replace a section of the README and update the file. Your README should contain HTML comments like this, where `feed` is the the value of `readme-section`:
 
-```html
-### Example RSS feed:
+### Example RSS feed from Ooshimus.com:
 
 <!--START_SECTION:hashnode-->
 * [Console.log() - The Right Way ✅](https:&#x2F;&#x2F;ooshimus.com&#x2F;consolelog-the-right-way)
@@ -49,7 +48,7 @@ The name of the section of your README to update. This uses [`JasonEtco/readme-b
 * [Printing COLOUR in IDLE in less than 2 minutes!](https:&#x2F;&#x2F;ooshimus.com&#x2F;printing-colour-in-idle-in-less-than-2-minutes)
 * [Controlling A Website with a TV Remote!!!](https:&#x2F;&#x2F;ooshimus.com&#x2F;controlling-a-website-with-a-tv-remote)
 <!--END_SECTION:hashnode-->
-```
+
 
 You can inspect this repo's README to see it in use!
 
