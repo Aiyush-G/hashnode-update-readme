@@ -1,6 +1,6 @@
 <h3 align="center">📡📝</h3>
-<h3 align="center">RSS to README Action</h3>
-<p align="center">A GitHub Action that updates a section of a README from an RSS feed.</p>
+<h3 align="center">Hashnode RSS to README Action</h3>
+<p align="center">A GitHub Action that updates a section of a README from a Hashnode RSS feed.</p>
 
 ---
 
@@ -15,6 +15,9 @@ on:
   schedule:
     # Once a day at 8 AM
     - cron: 0 8 * * *
+    
+# To manually run uncomment the line below and comment/delete out the `on` above
+# on: workflow_dispatch
 
 jobs:
   update:
@@ -22,8 +25,8 @@ jobs:
     steps:
       - uses: JasonEtco/rss-to-readme@v1
         with:
-          feed-url: https://jasonet.co/rss.xml
-          readme-section: feed
+          feed-url: https://ooshimus.com/rss.xml
+          readme-section: hashnode
 ```
 
 ### Options
@@ -39,9 +42,9 @@ The name of the section of your README to update. This uses [`JasonEtco/readme-b
 ```html
 ### Example RSS feed:
 
-<!--START_SECTION:feed-->
+<!--START_SECTION:hashnode-->
 ...
-<!--END_SECTION:feed-->
+<!--END_SECTION:hashnode-->
 ```
 
 You can inspect this repo's README to see it in use!
@@ -68,11 +71,7 @@ You can provide the target branch to update instead of the default.
 ### Example RSS feed:
 
 <!--START_SECTION:example-->
-* [Assorted thoughts on documentation](https:&#x2F;&#x2F;jasonet.co&#x2F;posts&#x2F;thoughts-on-docs&#x2F;)
-* [On &quot;lurking&quot;](https:&#x2F;&#x2F;jasonet.co&#x2F;posts&#x2F;on-lurking&#x2F;)
-* [Probot App or GitHub Action? (Updated)](https:&#x2F;&#x2F;jasonet.co&#x2F;posts&#x2F;probot-app-or-github-action-v2&#x2F;)
-* [Build your own Probot](https:&#x2F;&#x2F;jasonet.co&#x2F;posts&#x2F;build-your-own-probot&#x2F;)
-* [New features of GitHub Actions v2](https:&#x2F;&#x2F;jasonet.co&#x2F;posts&#x2F;new-features-of-github-actions&#x2F;)
+
 <!--END_SECTION:example-->
 
-> This started as a little proof-of-concept for @brianlovin!
+> Credit to JasonEtco for inital design!
